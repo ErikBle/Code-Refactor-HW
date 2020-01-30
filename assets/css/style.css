@@ -4,9 +4,11 @@
     margin: 0;
 }
 
+/* background color of the page */
 body {
     background-color: #d9dcd6;
 }
+
 
 .header {
     padding: 20px;
@@ -17,6 +19,7 @@ body {
     margin-right: 20px;
 }
 
+/* For the Horiseon logo */
 .header h1 {
     display: inline-block;
     font-size: 48px;
@@ -26,6 +29,7 @@ body {
     color: #d9dcd6;
 }
 
+/* For the 3 section IDs */
 .header div {
     padding-top: 15px;
     margin-right: 20px;
@@ -48,10 +52,12 @@ a {
     text-decoration: none;
 }
 
+/* For the text */
 p {
     font-size: 16px;
 }
 
+/* The main image */
 .hero {
     height: 800px;
     width: 97.34%;
@@ -64,22 +70,26 @@ p {
     margin-top: 20px;
 }
 
+/* The small images that flow left of the text */
 .float-left {
     float: left;
     margin-right: 25px;
 }
 
+/* The small image that flows right of the text */
 .float-right {
     float: right;
     margin-left: 25px;
 }
 
+/* To center the content */
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
+/* Small bar to the right */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -121,6 +131,7 @@ p {
     text-align: center;
 }
 
+/* For the images, seperates them from the text/ Centering it */
 .benefit-lead img {
     display: block;
     margin: 10px auto;
@@ -139,6 +150,7 @@ p {
     max-width: 150px;
 }
 
+/* Seperates the 3 blocks from each other and from the text */
 .search-engine-optimization {
     margin-bottom: 20px;
     padding: 50px;
@@ -166,6 +178,7 @@ p {
     color: #ffffff;
 }
 
+/* Manages the pictures in the 'content' class */
 .search-engine-optimization img {
     max-height: 200px;
 }
@@ -178,6 +191,7 @@ p {
     max-height: 200px;
 }
 
+/* seperates the header from the <p> text */
 .search-engine-optimization h2 {
     margin-bottom: 20px;
     font-size: 36px;
@@ -193,6 +207,8 @@ p {
     font-size: 36px;
 }
 
+
+/* footer at the bottom of the page */
 .footer {
     padding: 30px;
     clear: both;
